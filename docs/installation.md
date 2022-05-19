@@ -73,9 +73,9 @@ The minimum requirement by this project template is that your Web server support
 	- Set application canonical urls
 
 	```
-	FRONTEND_URL = http://yii2-core.loc
-	BACKEND_URL = http://backend.yii2-core.loc
-	STORAGE_URL = http://storage.yii2-core.loc
+	FRONTEND_URL = http://alyatama.loc
+	BACKEND_URL = http://backend.alyatama.loc
+	STORAGE_URL = http://storage.alyatama.loc
 	```
 
 3. Run in command line
@@ -96,9 +96,9 @@ Password: passwd
 ### Configure your web server
 
 Or configure your web server with three different web roots:
-- yii2-core.loc => /path/to/yii2-core/frontend/web
-- backend.yii2-core.loc => /path/to/yii2-core/backend/web
-- storage.yii2-core.loc => /path/to/yii2-core/storage
+- alyatama.loc => /path/to/yii2-core/frontend/web
+- backend.alyatama.loc => /path/to/yii2-core/backend/web
+- storage.alyatama.loc => /path/to/yii2-core/storage
 
 ### Single domain installation
 
@@ -107,9 +107,9 @@ Or configure your web server with three different web roots:
 Adjust settings in `.env` file
 
 ```
-FRONTEND_URL = http://yii2-core.loc
-BACKEND_URL = http://yii2-core.loc/backend
-STORAGE_URL = http://yii2-core.loc/storage
+FRONTEND_URL = http://alyatama.loc
+BACKEND_URL = http://alyatama.loc/backend
+STORAGE_URL = http://alyatama.loc/storage
 ```
 
 Adjust settings in `backend/config/main.php` file
@@ -190,7 +190,7 @@ This way is the easiest but long (~20 min).
     ```
 
 That's all. You just need to wait for completion! After that you can access project locally by URLs:
-* frontend: http://yii2-core.loc
-* backend: http://backend.yii2-core.loc
-* storage: http://storage.yii2-core.loc
-* phpmyadmin: http://pma.yii2-core.loc
+* frontend: http://alyatama.loc
+* backend: http://backend.alyatama.loc
+* storage: http://storage.alyatama.loc
+* phpmyadmin: http://pma.alyatama.loc

@@ -10,7 +10,7 @@ timezone: UTC
 box_check_update: false
 
 # Virtual machine name
-machine_name: yii2-core
+machine_name: alyatama
 
 # Virtual machine IP
 ip: 192.168.13.37
